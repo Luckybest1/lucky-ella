@@ -1,0 +1,22 @@
+name: lucky ella
+
+on: push
+
+
+jobs:
+lucky - ella
+  name: limit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: run lucky ella
+        uses: github/lucky-ella@v3
+        
+
+      - DEFAULT_BRANCH:main
+
+      - GITHUB_TOKEN S(( SECRET.GITHUB_TOKEN ))
+        run: pytest
